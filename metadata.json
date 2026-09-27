@@ -1,0 +1,8 @@
+{
+  "name": "Ambedkar Gyaan Kosh",
+  "description": "An AI-powered interactive digital archive providing accessible, verified insights into Dr. B. R. Ambedkar’s life and constitutional legacy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

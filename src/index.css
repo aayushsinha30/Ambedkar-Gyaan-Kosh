@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy-deep: #0F1933;
+    --navy-primary: #1A2A52;
+    --navy-elevated: #23376B;
+    --gold-heritage: #C9932E;
+    --gold-light: #E5B95C;
+    --parchment-warm: #FBF9F5;
+    --parchment-muted: #EBE5D8;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #0F1933;
+    color: #FBF9F5;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+  }
+
+  .font-mono-tabular {
+    font-family: 'JetBrains Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.kiosk-glass {
+  background: rgba(26, 42, 82, 0.72);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(201, 147, 46, 0.24);
+}
+
+.kiosk-glass-subtle {
+  background: rgba(15, 25, 51, 0.68);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(251, 249, 245, 0.12);
+}
+
+.kiosk-parchment {
+  background: linear-gradient(180deg, #FBF9F5 0%, #F3EDE0 100%);
+  color: #1C1917;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(15, 25, 51, 0.6);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(201, 147, 46, 0.45);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(201, 147, 46, 0.75);
+}

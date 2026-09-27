@@ -1,0 +1,22 @@
+{
+  "short_name": "GyaanKosh",
+  "name": "Ambedkar Gyaan Kosh — Digital Heritage Archive",
+  "description": "An AI-powered interactive digital archive providing accessible, verified insights into Dr. B. R. Ambedkar’s life and constitutional legacy.",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0F1933",
+  "theme_color": "#0F1933",
+  "display": "standalone",
+  "orientation": "portrait"
+}

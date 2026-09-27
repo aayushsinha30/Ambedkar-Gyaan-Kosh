@@ -1,0 +1,6 @@
+{
+  "appId": "in.gov.daic.gyankosh",
+  "appName": "Ambedkar Gyaan Kosh",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
